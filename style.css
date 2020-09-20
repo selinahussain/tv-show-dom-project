@@ -1,3 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#countingEp {
+  color: black;
+  margin: 1rem;
+}
 #root {
-  color: red;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+input[type="text"] {
+  margin: 2rem;
+  font-size: 0.9rem;
+  max-width: 400px;
+}
+.epCard {
+  max-width: 250px;
+  margin: 3rem 1rem;
+  padding: 0.6rem;
+  background-color: #1e3252;
+}
+.epTitle {
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: White;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+.epImg {
+  display: block;
+  margin: auto;
 }
